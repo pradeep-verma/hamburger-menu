@@ -1,0 +1,100 @@
+.header-container {
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px 14px 20px;
+  border-bottom: 1px solid #dcdcdc;
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    padding: 20px 60px 20px 60px;
+  }
+}
+.website-logo {
+  width: 36px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 50px;
+  }
+}
+.menu-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.hamburgerMenu-icon {
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .hamburgerMenu-icon {
+    font-size: 30px;
+  }
+}
+.popup-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 26px;
+}
+@media screen and (min-width: 768px) {
+  .popup-container {
+    padding: 60px;
+  }
+}
+.popup-close-button {
+  align-self: flex-end;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.popup-close-icon {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .popup-close-icon {
+    font-size: 20px;
+  }
+}
+.popup-link-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popup-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.popup-icon {
+  font-size: 16px;
+  margin-right: 8px;
+  color: #616e7c;
+}
+@media screen and (min-width: 768px) {
+  .popup-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+}
+.popup-text {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #616e7c;
+}
+@media screen and (min-width: 768px) {
+  .popup-text {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,19 @@
+.about-container {
+  width: 100vw;
+}
+.about-image-lg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .about-image-lg {
+    display: block;
+  }
+}
+.about-image-sm {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .about-image-sm {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-container {
+  width: 100vw;
+}
+.home-image-sm {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .home-image-sm {
+    display: none;
+  }
+}
+.home-image-lg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .home-image-lg {
+    display: block;
+  }
+}
